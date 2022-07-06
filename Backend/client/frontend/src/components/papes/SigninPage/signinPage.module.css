@@ -1,0 +1,70 @@
+
+  .upBody {
+    background-color: rgb(44, 143, 113);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 713px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .mainDiv {
+    width: 30%;
+  }
+  
+  .registr {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 1.5em;
+  }
+  
+  hr {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 80%;
+  }
+  
+  .loginPass {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .inputLogin {
+    width: 70%;
+    padding: 5px;
+    margin-bottom: 3%;
+  }
+  
+  .btnDiv {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .btnReg {
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 5px;
+  }
+  
+  .errorDiv {
+    color: red;
+    font-size: 1em;
+    margin-top: 5%;
+    background-color: white;
+    padding: 0 5px;
+    border: 1px solid red;
+  }
+
+  .btnregistr {
+    margin-top: 3%;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 5px;
+  }
+
+  .btnregistr a {
+    text-decoration: none;
+  }

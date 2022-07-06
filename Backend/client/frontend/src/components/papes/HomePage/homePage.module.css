@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+}
+
+.mainbody {
+  background-color: rgb(44, 123, 143);
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 713px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.mainString {
+  color: white;
+  font-weight: 400;
+}
+
+.todoDiv {
+  color: white;
+  font-size: 1.3em;
+}
+
+.mainInput {
+  border: none;
+  color: black;
+  font-size: large;
+  color: black;
+  outline: none;
+  background-color: inherit;
+}
+
+.btnAdd {
+  background-color: inherit;
+  border: none;
+  border-radius: 7px;
+  color: rgb(0, 0, 0);
+  font-size: 0.9em;
+  cursor: pointer;
+}
+
+.divInput {
+  display: flex;
+  justify-content: center;
+}
+
+.form {
+  border: 1px solid black;
+  width: 23%;
+  border-radius: 10px;
+  background-color: rgb(226, 207, 250);
+  padding: 3px;
+}
+
+.form:hover {
+  box-shadow: 2px 2px 8px black;
+}
+
+.registr {
+  display: flex;
+  justify-content: end;
+  width: 100%;
+  font-size: 1.5em;
+  padding: 0;
+  margin: 0;
+}
+
+.registr a {
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding-right: 20px;
+}
+
+.btnlog {
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  padding-right: 20px;
+  background-color: inherit;
+  border: none;
+  font-size: 0.8em;
+}
+
+.divTodo {
+  margin-top: 2%;
+  display: flex;
+  justify-content: center;
+}
+
+.mapDiv {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  width: 23%;
+}
+
+.itemDiv {
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.3em;
+  padding-left: 10px;
+  margin-bottom: 2%;
+  background-color: rgb(226, 207, 250);
+  border-radius: 10px;
+
+}
+
+.errorDiv {
+  color: red;
+  background-color: white;
+
+}
+
+.removebtn {
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  color: red;
+  font-size: 1em;
+  cursor: pointer;
+  margin-right: 1px;
+}
+
